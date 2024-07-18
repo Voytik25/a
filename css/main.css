@@ -3026,6 +3026,9 @@ input[type=number]:focus {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding: 10px;
+  background: #ACACAC;
+  border-radius: 20px;
 }
 .produce__item .custom-checkbox {
   position: relative;
