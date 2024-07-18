@@ -719,6 +719,7 @@ input[type=number]:focus {
   text-align: center;
   background-color: var(--color-blue-100);
   border-radius: 16px;
+  overflow: hidden;
 }
 @media (max-width: 768px) {
   .hero__swiper-slide {
