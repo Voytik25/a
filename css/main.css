@@ -3506,12 +3506,12 @@ input[type=number]:focus {
   }
 }
 .basket__total {
-  font-size: 40px;
+  font-size: 32px;
   padding-bottom: 32px;
 }
 @media (max-width: 768px) {
   .basket__total {
-    font-size: 34px;
+    font-size: 28px;
   }
 }
 @media (max-width: 576px) {
