@@ -754,6 +754,15 @@ input[type=number]:focus {
   bottom: 110px;
 }
 
+@media (max-width: 767px) {
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 70px;
+  }
+}
+
 .swiper-pagination-bullet-active {
   background-color: var(--color-black-60);
 }
