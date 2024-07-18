@@ -2904,6 +2904,9 @@ input[type=number]:focus {
   box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.08);
   background: var(--color-white-100);
   border-radius: 500px;
+      height: 42px;
+    width: 42px;
+    padding: 5px;
 }
 .produce__like img {
   width: 50px;
@@ -3084,7 +3087,7 @@ input[type=number]:focus {
   border-radius: 100%;
   width: 30px;
   height: 30px;
-  top: 1.5px;
+  top: -3px;
 }
 @media (max-width: 768px) {
   .produce__item .custom-checkbox__content::before {
@@ -3104,7 +3107,7 @@ input[type=number]:focus {
   background-size: 20px 20px;
   background-color: var(--color-black-100);
   border-radius: 100%;
-  top: 6px;
+  top: 2.8px;
   left: 5px;
 }
 @media (max-width: 768px) {
