@@ -740,11 +740,11 @@ input[type=number]:focus {
   height: 5px;
   border-radius: 24px;
   background-color: var(--color-black-30);
-  width: 20%;
+  width: 18%;
 }
 
 .swiper-pagination-bullet-active {
-  width: 20%;
+  width: 18%;
 }
 
 @media (max-width: 600px) {
