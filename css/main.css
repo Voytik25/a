@@ -785,7 +785,7 @@ input[type=number]:focus {
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  bottom: 70px;
+  bottom: 30px;
   }
 }
 
