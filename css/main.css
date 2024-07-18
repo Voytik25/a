@@ -3305,11 +3305,11 @@ input[type=number]:focus {
 }
 .basket__name {
   display: block;
-  font-size: 32px;
+  font-size: 24px;
 }
 @media (max-width: 768px) {
   .basket__name {
-    font-size: 28px;
+    font-size: 22px;
   }
 }
 @media (max-width: 576px) {
