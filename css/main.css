@@ -722,7 +722,7 @@ input[type=number]:focus {
   overflow: hidden;
 }
 
-.hero__slider-slide img{
+.hero__swiper-slide img{
   min-height: 100%;
 }
 @media (max-width: 768px) {
