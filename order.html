@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>First flowers</title>
+  <link rel="preload" href="fonts/WermutRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/InterExtraLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/InterLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/InterRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/InterMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/InterSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header" id="header">
+  <div class="header__container container">
+    <div class="header__left burger">
+      <button class="burger__btn btn-reset">
+        <span class="burger__line"></span>
+      </button>
+      <div class="burger__menu">
+        <div class="burger__flower-mobile accordion">
+          <button class="burger__flowers accordion__control btn-reset">
+            <span class="burger__subtitle">Цветы</span>
+            <img src="img/arrow-top.svg" alt="Arrow" class="accordion__icon">
+          </button>
+          <ul class="burger__flower-list list-reset accordion__content">
+            <li class="burger__flower-item">
+              <a href="#" class="burger__flower-link">Розы</a>
+            </li>
+            <li class="burger__flower-item">
+              <a href="#" class="burger__flower-link">Пионы</a>
+            </li>
+            <li class="burger__flower-item">
+              <a href="#" class="burger__flower-link">В коробке</a>
+            </li>
+            <li class="burger__flower-item">
+              <a href="#" class="burger__flower-link">Авторские</a>
+            </li>
+            <li class="burger__flower-item">
+              <a href="#" class="burger__flower-link">Съедобные</a>
+            </li>
+            <li class="burger__flower-item">
+              <a href="#" class="burger__flower-link">Моно букеты</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="burger__list list-reset burger__flower">
+          <li class="burger__item">
+            <a href="#" class="burger__link">Розы</a>
+          </li>
+          <li class="burger__item">
+            <a href="#" class="burger__link">Пионы</a>
+          </li>
+          <li class="burger__item">
+            <a href="#" class="burger__link">Моно-букеты</a>
+          </li>
+          <li class="burger__item">
+            <a href="#" class="burger__link">Авторские</a>
+          </li>
+          <li class="burger__item">
+            <a href="#" class="burger__link">В корзине</a>
+          </li>
+          <li class="burger__item">
+            <a href="#" class="burger__link">В коробке</a>
+          </li>
+          <li class="burger__item">
+            <a href="#" class="burger__link">Съедобные</a>
+          </li>
+        </ul>
+        <ul class="burger__list list-reset">
+          <li class="burger__item">
+            <a href="date-no.html" class="burger__link">Мои даты</a>
+          </li>
+          <li class="burger__item">
+            <a href="#" class="burger__link">Доставка</a>
+          </li>
+          <li class="burger__item">
+            <a href="#" class="burger__link">Оплата</a>
+          </li>
+          <li class="burger__item">
+            <a href="about.html" class="burger__link">О нас</a>
+          </li>
+          <li class="burger__item burger__social">
+            <a href="#" class="burger__link"><img loading="lazy" src="img/social/whatsapp.svg" class="burger__img"
+                width="24" height="24" alt="WhatsApp"></a>
+            <a href="#" class="burger__link"><img loading="lazy" src="img/social/telegram.svg" class="burger__img"
+                width="24" height="24" alt="Telegram"></a>
+            <a href="tel:79030153315" class="burger__link">+7 903 015-33-15</a>
+          </li>
+          <li class="burger__item">
+            <a href="mailto:first-flowers@mail.ru" class="burger__link">first-flowers@mail.ru</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <a href="index.html" class="header__logo">
+      <img src="img/logo.svg" class="header__img" width="54" height="62" alt="Logotype">
+    </a>
+    <div class="header__right">
+      <form action="#" class="header__search search">
+        <button type="button" class="search__close btn-reset">
+          <img src="img/close.svg" alt="Close">
+        </button>
+        <input type="text" class="search__input input-reset" name="search" placeholder="Поиск...">
+        <button type="button" class="search__btn btn-reset">
+          <img src="img/search.svg" alt="">
+        </button>
+      </form>
+      <a href="favorites.html" class="header__favorites">
+        <img src="img/favorite.svg" alt="">
+      </a>
+      <div class="header__profile profile">
+        <button class="profile__btn btn-reset">
+          <img src="img/profile.svg" alt="Profile">
+        </button>
+        <div class="profile__menu">
+          <div class="profile__top">
+            <div class="profile__person">
+              <img src="img/profile/profile-1.png" alt="Person" class="profile__img">
+              <span class="profile__name">Всеволод</span>
+            </div>
+            <button class="btn-reset profile__login" data-graph-path="login"><img loading="lazy" src="img/out.svg"
+                width="24" height="24" alt="Login"></button>
+          </div>
+          <ul class="profile__list list-reset">
+            <li class="profile__item"><a href="account.html" class="profile__link">Мои данные</a></li>
+            <li class="profile__item"><a href="address.html" class="profile__link">Мои адреса</a></li>
+            <li class="profile__item"><a href="order.html" class="profile__link">Мои заказы</a></li>
+          </ul>
+        </div>
+      </div>
+      <a href="basket.html" class="header__basket">
+        <img src="img/cart.svg" alt="Cart">
+      </a>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="account" id="account">
+  <div class="account__container container">
+    <div class="breadcrumbs">
+      <a href="index.html" class="breadcrumbs__home">Главная</a>
+      <img src="img/arrow-right.svg" alt="Arrow" class="breadcrumbs__img">
+      <span class="breadcrumbs__current">Личный кабинет</span>
+    </div>
+    <div class="account__content-order account__content">
+      <div class="account__profile">
+        <div class="account__top">
+          <img src="img/avatar.svg" alt="Img person" width="48px" height="48px">
+          <span class="account__name">Всеволод</span>
+          <button class="account__out btn-reset"><img src="img/out.svg" width="24" height="24" alt="Out"></button>
+        </div>
+        <ul class="account__contacts list-reset">
+          <li class="account__contacts-item">
+            <span class="account__number">+7 (999) 123 — 45 — 67</span>
+            <button class="btn-reset account__write"><img src="img/pen.svg" width="20" height="20" alt="Write"></button>
+          </li>
+          <li class="account__contacts-item">
+            <span class="account__mail">123mail.com</span>
+            <button class="btn-reset account__write"><img src="img/pen.svg" width="20" height="20" alt="Write"></button>
+          </li>
+        </ul>
+        <ul class="account__list list-reset">
+          <li class="account__item"><a href="account.html" class="account__link">Мои данные</a></li>
+          <li class="account__item"><a href="address.html" class="account__link">Мои адреса</a></li>
+          <li class="account__item"><a href="order.html" class="account__link account__link_active">Мои заказы</a></li>
+        </ul>
+      </div>
+      <div class="account__order order">
+        <h2 class="order__title account__title">Мои заказы</h2>
+        <ul class="list-reset order__list">
+          <li class="order__item">
+            <div class="order__left">
+              <span class="order__name">Номер заказа</span>
+              <div class="order__cost">
+                <span class="order__price">12 990</span>
+                <span class="order__currency">₽</span>
+              </div>
+            </div>
+            <div class="order__center">
+              <span class="order__address">г. Санкт-Петербург, ул. Варфоломеева, д. 3, кв. 25</span>
+              <span class="order__date">10.12.2023</span>
+            </div>
+            <div class="order__right">
+              <button class="order__again btn-reset">Посмотреть заказ</button>
+            </div>
+            <button class="btn-reset order__delete"><img src="img/delete.svg" alt="Delete"></button>
+            <button class="btn-reset order__delete_mobile">Удалить</button>
+          </li>
+          <li class="order__item">
+            <div class="order__left">
+              <span class="order__name">Номер заказа</span>
+              <div class="order__cost">
+                <span class="order__price">12 990</span>
+                <span class="order__currency">₽</span>
+              </div>
+            </div>
+            <div class="order__center">
+              <span class="order__address">г. Санкт-Петербург, ул. Варфоломеева, д. 3, кв. 25</span>
+              <span class="order__date">10.12.2023</span>
+            </div>
+            <div class="order__right">
+              <button class="order__again btn-reset">Посмотреть заказ</button>
+            </div>
+            <button class="btn-reset order__delete"><img src="img/delete.svg" alt="Delete"></button>
+            <button class="btn-reset order__delete_mobile">Удалить</button>
+          </li>
+          <li class="order__item">
+            <div class="order__left">
+              <span class="order__name">Номер заказа</span>
+              <div class="order__cost">
+                <span class="order__price">12 990</span>
+                <span class="order__currency">₽</span>
+              </div>
+            </div>
+            <div class="order__center">
+              <span class="order__address">г. Санкт-Петербург, ул. Варфоломеева, д. 3, кв. 25</span>
+              <span class="order__date">10.12.2023</span>
+            </div>
+            <div class="order__right">
+              <button class="order__again btn-reset">Посмотреть заказ</button>
+            </div>
+            <button class="btn-reset order__delete"><img src="img/delete.svg" alt="Delete"></button>
+            <button class="btn-reset order__delete_mobile">Удалить</button>
+          </li>
+          <li class="order__item">
+            <div class="order__left">
+              <span class="order__name">Номер заказа</span>
+              <div class="order__cost">
+                <span class="order__price">12 990</span>
+                <span class="order__currency">₽</span>
+              </div>
+            </div>
+            <div class="order__center">
+              <span class="order__address">г. Санкт-Петербург, ул. Варфоломеева, д. 3, кв. 25</span>
+              <span class="order__date">10.12.2023</span>
+            </div>
+            <div class="order__right">
+              <button class="order__again btn-reset">Посмотреть заказ</button>
+            </div>
+            <button class="btn-reset order__delete"><img src="img/delete.svg" alt="Delete"></button>
+            <button class="btn-reset order__delete_mobile">Удалить</button>
+          </li>
+          <li class="order__item">
+            <div class="order__left">
+              <span class="order__name">Номер заказа</span>
+              <div class="order__cost">
+                <span class="order__price">12 990</span>
+                <span class="order__currency">₽</span>
+              </div>
+            </div>
+            <div class="order__center">
+              <span class="order__address">г. Санкт-Петербург, ул. Варфоломеева, д. 3, кв. 25</span>
+              <span class="order__date">10.12.2023</span>
+            </div>
+            <div class="order__right">
+              <button class="order__again btn-reset">Посмотреть заказ</button>
+            </div>
+            <button class="btn-reset order__delete"><img src="img/delete.svg" alt="Delete"></button>
+            <button class="btn-reset order__delete_mobile">Удалить</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="footer__container container">
+    <div class="footer__top">
+      <h2 class="footer__title">Связаться с нами</h2>
+      <p class="footer__descr">Свяжитесь с нами и мы ответим на все ваши вопросы</p>
+      <ul class="footer__social social list-reset">
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="img/social/telegram.svg" alt="Telegram" class="social__img">
+            <p class="social__media">Telegram</p>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="img/social/whatsapp.svg" alt="WhatsApp" class="social__img">
+            <p class="social__media">WhatsApp</p>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="img/social/phone.svg" alt="Number phone" class="social__img">
+            <p class="social__media">+7 903 015-33-15</p>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="img/social/mail.svg" alt="E-mail" class="social__img">
+            <p class="social__media">first-flowers@mail.ru</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__center">
+        <div class="footer__left">
+          <a href="index.html" class="footer__logo">
+            <img src="img/logo.svg" alt="Logotype" class="footer__img">
+          </a>
+          <nav class="footer__nav nav" title="Nav menu">
+            <ul class="list-reset nav__list">
+              <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Доставка</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Оплата</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Политика конфеденциальности</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__discounts discounts">
+          <h3 class="discounts__title">Скидка 20% на первый заказ в приложении</h3>
+          <ul class="discounts__list list-reset">
+            <li class="discounts__item">
+              <img src="img/apple.svg" alt="Apple store" class="discounts__img">
+              <a href="#" class="discounts__wrap">
+                <span class="discounts__descr">доступно в</span>
+                <span class="discounts__market">AppStore</span>
+              </a>
+            </li>
+            <li class="discounts__item">
+              <img src="img/google.svg" alt="Apple store" class="discounts__img">
+              <a href="#" class="discounts__wrap">
+                <span class="discounts__descr">доступно в</span>
+                <span class="discounts__market">Google Play</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__legal legal">
+        <ul class="legal__list list-reset">
+          <li class="legal__item">
+            <span class="legal__meaming">ИНН:</span>
+            <span class="legal__property">ИНН: 772578742878, Индивидуальный предприниматель Мендил Евгения
+              Анатольевна</span>
+          </li>
+          <li class="legal__item">
+            <span class="legal__meaming">Расчётный счёт:</span>
+            <span class="legal__property">40802810001500325581</span>
+          </li>
+          <li class="legal__item">
+            <span class="legal__meaming">Название банка:</span>
+            <span class="legal__property">ТОЧКА ПАО БАНКА «ФК ОТКРЫТИЕ»</span>
+          </li>
+          <li class="legal__item">
+            <span class="legal__meaming">БИК: </span>
+            <span class="legal__property">044525999</span>
+          </li>
+          <li class="legal__item">
+            <span class="legal__meaming">Корр. счёт:</span>
+            <span class="legal__property">30101810845250000999</span>
+          </li>
+        </ul>
+      </div>
+      <span class="footer__copyright">First Flowers, 2024</span>
+    </div>
+  </div>
+</footer>
+
+    <div class="graph-modal">
+    <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="login">
+        <button class="btn-reset graph-modal__close js-modal-close" aria-label="Закрыть модальное окно"></button>
+        <div class="graph-modal__content login">
+      <h2 class="login__title">Вход или регистрация</h2>
+      <p class="login__descr">Мы отправили смс с кодом для входа в личный кабинет</p>
+      <form action="#" class="login__form">
+        <label class="login__label">
+          <input type="text" name="Номер телефона" class="input-reset login__input" placeholder="Номер телефона">
+        </label>
+        <label class="login__label">
+          <input type="number" name="Код" class="input-reset login__input" placeholder="Код">
+        </label>
+        <p class="login__repeated">Вы можете запросить код повторно через 0:00</p>
+        <button class="btn-reset login__again">Отправить код повторно</button>
+        <button class="btn-reset login__btn">Авторизироваться</button>
+      </form>
+        </div>
+    </div>
+</div>
+
+  </div>
+</body>
+
+</html>
