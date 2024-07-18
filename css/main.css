@@ -453,6 +453,7 @@ input[type=number]:focus {
     width: -moz-max-content;
     width: max-content;
     padding: 16px 24px;
+    height: 100vh;
   }
 }
 .burger__menu--active {
