@@ -721,6 +721,10 @@ input[type=number]:focus {
   border-radius: 16px;
   overflow: hidden;
 }
+
+.hero__slider-slide img{
+  min-height: 100%;
+}
 @media (max-width: 768px) {
   .hero__swiper-slide {
     border-radius: 20px;
