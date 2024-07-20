@@ -3090,7 +3090,7 @@ input[type=number]:focus {
   border-radius: 100%;
   width: 30px;
   height: 30px;
-  top: -3px;
+  top: -2.5px;
 }
 @media (max-width: 768px) {
   .produce__item .custom-checkbox__content::before {
@@ -3111,7 +3111,7 @@ input[type=number]:focus {
   background-color: var(--color-black-100);
   border-radius: 100%;
   top: 1.8px;
-  left: 5px;
+  left: 5.2px;
 }
 @media (max-width: 768px) {
   .produce__item .custom-checkbox__content::after {
