@@ -3230,6 +3230,7 @@ input[type=number]:focus {
   .slider-block {
     width: 100%;
   }
+}
 
   @media (max-width: 576px) {
   .slider-block {
@@ -3252,6 +3253,7 @@ input[type=number]:focus {
     max-width: 300px;
     height: 300px;
   }
+}
 
 @media (min-width: 768px) {
   .card__swiper-slide {
