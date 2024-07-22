@@ -3269,7 +3269,8 @@ input[type=number]:focus {
 }
 @media (max-width: 576px) {
   .card__swiper-slide {
-    width: 100%;
+    width: 100%;  
+    border-radius: 0;
   }
 }
 .card__swiper-slide img {
