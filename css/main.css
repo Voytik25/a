@@ -2867,6 +2867,13 @@ input[type=number]:focus {
     gap: 32px;
   }
 }
+
+@media (max-width: 576px) {
+  .produce__content {
+    margin-top: 0;
+  }
+}
+
 .produce__title {
   font-weight: 400;
   font-size: 40px;
@@ -3223,6 +3230,13 @@ input[type=number]:focus {
   .slider-block {
     width: 100%;
   }
+
+  @media (max-width: 576px) {
+  .slider-block {
+      width: calc(100% + 30px);
+      left: -15px;
+      position: relative;
+  }
 }
 
 .card__swiper-slide {
@@ -3236,6 +3250,7 @@ input[type=number]:focus {
   .card__swiper-slide {
     max-width: 300px;
     height: 300px;
+    border-radius: 0;
   }
 }
 @media (min-width: 768px) {
