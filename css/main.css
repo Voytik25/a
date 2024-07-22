@@ -3246,13 +3246,19 @@ input[type=number]:focus {
   overflow: hidden;
   aspect-ratio: 1/1;
 }
+
+  @media (max-width: 576px) {
+  .card__swiper-slide {
+    border-radius: 0;
+  }
+}
+  
 @media (min-width: 577px) {
   .card__swiper-slide {
     max-width: 300px;
     height: 300px;
-    border-radius: 0;
   }
-}
+
 @media (min-width: 768px) {
   .card__swiper-slide {
     max-width: 450px;
